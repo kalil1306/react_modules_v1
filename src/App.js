@@ -14,6 +14,10 @@ instead of we are drilling down from GreatGrandFather > GrandFater > Father > Ch
 you need to pass the data from each cases or drilling towards the end,need to 
 pass all the tree cycle to get and pass the data till the end of the tree
 
+cons : 
+1. it increases the lines of code if its more than 100 drilling
+2. If any error occurs it is very difficult to find it or debugg the error 
+
 -----------------------------------------
 state : 
 first param uses the variable
