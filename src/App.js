@@ -4,6 +4,9 @@ import { useState } from 'react';
 
 
 
+
+
+
 /*
 
 Component will always return the jsx whereas the function will return 
@@ -159,8 +162,6 @@ state :
 first param uses the variable
 second params uses the change of the variable 
 
-*/
-
 function App() {
   const [state, setState] = useState("Kalil")
   return (
@@ -226,6 +227,15 @@ function Child({state, setState}){
     </div>
   )
 }
+
+o/p : 
+if you click change state button it will change the name from kalil to kasheef
+
+*/
+
+
+
+
 
 
 
